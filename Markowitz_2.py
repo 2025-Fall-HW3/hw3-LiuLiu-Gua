@@ -70,6 +70,9 @@ class MyPortfolio:
         """
         TODO: Complete Task 4 Below
         """
+        self.portfolio_weights[assets] = 0.0
+        self.portfolio_weights['XLK'] = 1.0
+        self.portfolio_weights[self.exclude] = 0.0
         
         
         """
